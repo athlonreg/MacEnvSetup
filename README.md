@@ -23,3 +23,7 @@ $ ./macenvconf.sh
 # Credit
 [aotu.io](https://mac.aotu.io)
 
+# Changelog
+[Changelog](https://github.com/athlonreg/MacEvnBuild/blob/master/Changelog.md)
+
+
