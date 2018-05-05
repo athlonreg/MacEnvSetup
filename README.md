@@ -13,19 +13,14 @@
 
 # Install
 ```
-$ cd 
-$ git clone https://github.com/athlonreg/MacEvnBuild
-$ cd MacEvnBuild
-$ chmod +x macenvconf.sh
-$ chmod +x beautify.sh
-$ ./macenvconf.sh
+$ cd && sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/MacEvnBuild/master/macenvconf.sh)" 
 ```
 
 ![24AB4B7D81AE0A56E35A457EDAAF86D0](http://ovefvi4g3.bkt.clouddn.com/24AB4B7D81AE0A56E35A457EDAAF86D0.jpg)
 
 ```
 $ bash
-$ ./beautify 
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/MacEvnBuild/master/beautify.sh)" 
 $ zsh 
 $ tmux
 ```
