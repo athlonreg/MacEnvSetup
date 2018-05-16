@@ -3,8 +3,7 @@
 # 一键部署配置Mac shell相关插件与美化
 
 # 安装homebrew
-echo "安装homebrew"
-cd
+echo "安装homebrew" && cd
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # 安装wget
