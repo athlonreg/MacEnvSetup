@@ -14,9 +14,4 @@
 - add oh-my-zsh
 - add tmux
 
----
 
-## Details
-
-- beautify.sh 
-- macenvconf.sh
