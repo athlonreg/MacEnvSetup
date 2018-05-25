@@ -4,10 +4,6 @@
 echo "设置zsh为你的默认shell"
 chsh -s /bin/zsh
 
-# 安装tmux
-echo "安装tmux"
-brew install tmux
-
 # 使用gpakoz的tmux配置
 echo "使用gpakoz的tmux配置"
 cd ; rm -rf .tmux
