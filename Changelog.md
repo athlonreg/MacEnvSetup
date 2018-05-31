@@ -7,6 +7,12 @@
 	- add mark-text
 	- add mos
 	- add shadowsocksx-ng
+	- add google-chrome
+	- add hex-fiend
+	- add docker
+	- add snip
+	- add thunder
+	- add hbuilder
 
 - 2018.4.16
 	- add homebrew
