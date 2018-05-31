@@ -1,26 +1,53 @@
+#################################################################
+#		     Create by Canvas			  	  #
+#		     Author: 	Canvas				  #
+#		     Email:  	1143991340@qq.com		  #
+#		     Site: 	https://blog.iamzhl.top/	  #
+#################################################################
 #!/bin/bash
 
-# cd ~
-cd ~ 
+# Clone remote repo
+cd ~ && git clone https://github.com/athlonreg/MacEvnBuild 
 
-# Homebrew 
-echo "Installing homebrew ......" 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
-
+cd ~/MacEvnBuild/
 # Define variable 
-brewsets=$( cat brew.set | grep -v "#" | awk '{print $2}' ) 
-casksets=$( cat cask.set | grep -v "#" | awk '{print $2}' )
+brewsets=$( cat ./brew.set | awk '{print $2}' ) 
+casksets=$( cat ./cask.set | awk '{print $2}' )
 
 # brew cask 
-for j in $packagesets 
+for j in $casksets
 do
 	echo "Installing $j ......" 
-	brew cask install $j 
+	read -p "Do you want to install $j ? (y / n)" choice 
+	case $choice in 
+		"y" | "yes" | "Y" | "Yes" ) 
+			brew cask install $j 
+		;;
+		"n" | "no" | "N" | "No" )  
+			continue
+		;;
+		* ) 
+			echo "Input invalid, bye..."
+			exit 1
+		;;
+	esac
 done
 
 # brew 
-for i in $packagesets 
+for i in $brewsets 
 do
 	echo "Installing $i ......" 
-	brew install $i 
+	read -p "Do you want to install $i ? (y / n)" choice 
+	case "$choice" in 
+		"y" | "yes" | "Y" | "Yes") 
+			brew install $i 
+		;;
+		"n" | "no" | "N" | "No") 
+			continue
+		;;
+		*) 
+			echo "Input invalid, bye..."
+			exit 1
+		;;
+	esac
 done
