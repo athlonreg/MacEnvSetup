@@ -24,6 +24,7 @@
 	- add youku
 	- add teamviewer
 	- add iina
+	- add nosleep
 	- add plistedit-pro
 	- add visual-studio-code
 	- add kugoumusic
