@@ -14,6 +14,24 @@
 	- add thunder
 	- add hbuilder
 	- add typora
+	- add qq
+	- add qqbrowser
+	- add qqlive
+	- add qqmusic
+	- add baidunetdisk
+	- add neteasemusic
+	- add youdaodict
+	- add youku
+	- add teamviewer
+	- add iina
+	- add plistedit-pro
+	- add visual-studio-code
+	- add kugoumusic
+	- add qiyimedia
+	- add free-download-manager
+	- add the-unarchiver
+	- add font-source-code-pro
+	- add font-source-code-pro-for-powerline
 
 - 2018.4.16
 	- add homebrew
