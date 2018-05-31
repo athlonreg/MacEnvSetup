@@ -1,5 +1,43 @@
 # Changlog
-## Feature
+- 2018.6.1
+	- add intellij-idea
+	- add webstorm
+	- add pycharm
+	- add eclipse-ide
+	- add navicat-premium
+	- add vmware-fusion
+	- add istat-menus
+	- add wewechat
+	- add visual-studio
+	- add adobe-creative-cloud
+	- add alfred2
+	- add alfred
+	- add android-studio
+	- add atom
+	- add bilibili
+	- add bitbar
+	- add carbon-copy-cloner
+	- add ccleaner
+	- add cleanmymac
+	- add coda
+	- add firefox
+	- add github
+	- add keka
+	- add gitee
+	- add lantern
+	- add microsoft-office
+	- add mongodb
+	- add netbeans
+	- add pdfexpert
+	- add steam
+	- add sublime-text
+	- add tuxera-ntfs
+	- add unpkg
+	- add weiyun
+	- add xiami
+	- add xmind
+	- add yummy-ftp
+
 - 2018.5.31
 	- add macdown
 	- add go2shell
