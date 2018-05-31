@@ -13,6 +13,7 @@
 	- add snip
 	- add thunder
 	- add hbuilder
+	- add typora
 
 - 2018.4.16
 	- add homebrew
