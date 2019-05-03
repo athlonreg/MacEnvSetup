@@ -1,4 +1,7 @@
 # Changlog
+- 2019.5.3
+	- add git-lfs
+
 - 2019.4.18
 	> Casks 
 	
